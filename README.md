@@ -1,1 +1,3 @@
-# credit-book
+# credit book
+I did this practice for my father, who works at the teahouse, to keep his notes on credit. I used firebase real-time database in the application. In this way, we can see the sales, product and customer records that are added or deleted instantly with the applications installed on both of our phones. You can create a project from [console.firebase](https://console.firebase.google.com/u/0/) to run the application. Create a realtime database in your project. Then, if you download the project and select firebase from the tools tab and add the realtime database, the project will run.
+I wish you a good day 😊
