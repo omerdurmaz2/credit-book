@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_style_linear_layout"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="15dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvSellsClientName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ellipsize="marquee"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="Başkan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSellsProductName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Çay"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tvSellsProductPiece"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSellsProductTotalPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="2₺"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:id="@+id/tvSellsDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

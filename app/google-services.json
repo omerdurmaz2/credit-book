@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "673653865420",
+    "firebase_url": "https://debtbook-2c707.firebaseio.com",
+    "project_id": "debtbook-2c707",
+    "storage_bucket": "debtbook-2c707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673653865420:android:b193c5372b232304bdbb69",
+        "android_client_info": {
+          "package_name": "com.example.veresiyedefteri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673653865420-7rt1v44sv15fn4mecapf7erv0k8onea9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWRcMiqPjYDzgMdJrGb08txLcHYTCCJ5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673653865420-7rt1v44sv15fn4mecapf7erv0k8onea9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
